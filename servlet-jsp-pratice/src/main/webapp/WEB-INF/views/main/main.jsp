@@ -23,7 +23,5 @@
         <button type="submit">직원퇴사</button>
     </form>
 
-    <h3></h3>
-
 </body>
 </html>
