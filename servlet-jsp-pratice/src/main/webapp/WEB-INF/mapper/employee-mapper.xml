@@ -21,16 +21,19 @@
         WHERE ENT_YN = 'N'
     </entry>
 
-    <entry key="selectEmpById">
-        SELECT
-        EMP_ID,
-        EMP_NAME,
-        DEPT_CODE,
-        JOB_CODE,
-        SALARY
-        FROM TBL_EMPLOYEE
-        WHERE ENT_YN = 'N'
-        AND EMP_ID = ?
+    <entry key="updateEmp">
+        UPDATE TBL_EMPLOYEE
+        SET ENT_DATE = ?
+        , ENT_YN = 'Y'
+        WHERE EMP_ID = ?
     </entry>
+
+    <entry key="deleteEmp">
+        DELETE
+        FROM TBL_EMPLOYEE
+        WHERE EMP_ID = ?
+    </entry>
+
+
 
 </properties>
