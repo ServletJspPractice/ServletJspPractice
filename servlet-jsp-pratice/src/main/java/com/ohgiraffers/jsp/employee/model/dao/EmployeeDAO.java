@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-import static com.ohgiraffers.mvc.common.jdbc.JDBCTemplate.close;
+import static com.ohgiraffers.jsp.common.jdbc.JDBCTemplate.close;
 
 public class EmployeeDAO {
 
